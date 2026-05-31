@@ -32,7 +32,7 @@ function ChatInput({
       try {
         const response =
           await fetch(
-            "http://localhost:5000/upload",
+            "https://prabav-ai.onrender.com/upload",
             {
               method: "POST",
               body: formData,

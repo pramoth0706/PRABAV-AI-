@@ -81,7 +81,7 @@ function App() {
       console.log("Uploaded File:", uploadedFile)
       console.log("Sending uploadedFile:", uploadedFile)
 
-      const response = await fetch("http://localhost:5000/chat", {
+      const response = await fetch("https://prabav-ai.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
